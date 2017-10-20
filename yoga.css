@@ -1,0 +1,132 @@
+*{
+    font-family: Verdana, Arial,sans-serif ;
+}
+body{
+    background-color: #3F2860;
+    color: #3F2860;
+}
+#wrapper{
+    width: 80%;
+    margin: auto;
+    background-color: #F5F5F5;
+}
+div.title{
+    background-color: #9BC1C2;
+    background-image: url(images/lilyheader.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+    
+}
+
+div.title > h1{
+    color: #3F2860;
+    line-height: 200%;
+    margin: 0;
+    padding: 1em 0em 1em 1.5em;
+}
+
+.content{
+    background: #F5F5F5;
+    color: #3F2860;
+    padding-bottom: 1.5em;
+}
+.navstyle{
+    text-align: center;
+    font-weight: bold; 
+    float: left;
+    width: 14%;
+    padding: 1em;
+}
+
+.navstyle > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navstyle > ul > a>li{
+    border: 5px outset #CCCCCC;
+     margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+.navstyle > ul > a  :hover{
+color:  #A26100;
+}
+.navstyle a:visited{
+    color:  #497777;
+}
+
+.navstyle  a:link{
+    color:  #3F2860;
+    }
+.navstyle > ul > a{
+    text-decoration: none;
+    color: #3F2860;
+}
+
+.footerstyle{
+    color: #3F2860;
+    text-align: center;
+    background: #9BC1C2;
+    font-size: small;
+    padding: 1em;
+}
+
+.banner{
+    overflow: hidden;
+}
+
+.forms{
+    padding: 2em;
+}
+
+label{
+    float: left;
+    width: 10em;
+    text-align: right;
+    font-weight: bold;
+}
+
+input,textarea{
+    margin-bottom: 1.5em;
+    margin-left: 2em;
+}
+#SubmitId{
+    margin-left: 13.9em;
+}
+
+.dropalign{
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+}
+/*  */
+
+
+section{
+    padding: 1em;
+    margin-left: 12.5em;
+}
+section > .subparent{
+    display:flex;
+}
+section > .subparent >div:nth-child(1) {
+    margin-right: 5em;
+}
+#indexsubpoints{
+    margin-left: -2.5em;
+}
+.classpara{
+    padding-left: 2.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+.clearfix{
+    clear: both;
+}
+
+
+
+
